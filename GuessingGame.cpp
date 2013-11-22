@@ -4,10 +4,12 @@
 
 #include <stdlib.h>
 #include <iostream>
+#include <time.h>
 
 using namespace std;
 int main(){
 	
+	srand(time(NULL));
 	int number=rand()%100; 
 	int guess=-1;
 	int trycount=0;
